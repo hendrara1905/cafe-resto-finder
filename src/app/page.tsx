@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
       <header className="bg-white shadow p-4 text-center text-2xl font-semibold">
-        Resto & Cafe Finder
+        Kulineran
       </header>
 
       <div className="p-4">
