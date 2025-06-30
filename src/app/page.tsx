@@ -3,33 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-
-const data = [
-  {
-    id: 1,
-    name: "Kopi Nako Kuningan",
-    city: "Kuningan",
-    category: "Kafe",
-    image: "/images/kopi-nako.jpg",
-    ig: "https://www.instagram.com/reel/CI6PYXJDhHk/",
-  },
-  {
-    id: 2,
-    name: "Sambel Hejo Majalengka",
-    city: "Majalengka",
-    category: "Resto",
-    image: "/images/sambel-hejo.jpg",
-    ig: "https://www.instagram.com/reel/CI6PYXJDhHl/",
-  },
-  {
-    id: 3,
-    name: "Warung Kopi Klasik",
-    city: "Kuningan",
-    category: "Kafe",
-    image: "/images/kopi-klasik.jpg",
-    ig: "https://www.instagram.com/reel/CI6PYXJDhHm/",
-  },
-];
+import { data } from "@/data/places";
 
 const cities = ["Kuningan", "Majalengka"];
 
@@ -96,5 +70,3 @@ export default function Home() {
     </div>
   );
 }
-
-export { data };

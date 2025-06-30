@@ -1,7 +1,7 @@
 "use client";
 
 import { useParams } from "next/navigation";
-import { data } from "../../page";
+import { data } from "@/data/places";
 import Image from "next/image";
 
 export default function DetailPage() {
